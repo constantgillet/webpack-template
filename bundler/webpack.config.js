@@ -10,7 +10,8 @@ module.exports = {
     {
         contentBase: './dist',
         open: true,
-        host: '0.0.0.0' //Lance sur le serveur local
+        host: '0.0.0.0', //Lance sur le serveur local
+        useLocalIp: true
     },
     entry: path.resolve(__dirname, '../src/index.js'),
     output:
